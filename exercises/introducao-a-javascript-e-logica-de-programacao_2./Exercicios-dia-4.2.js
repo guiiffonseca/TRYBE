@@ -31,10 +31,27 @@ else{
 //Exercício 5-Utilizando for , descubra qual o maior valor contido no array e imprima-o;
 let maiorValor=numbers[0]
 
- for(let index=0; index<numbers.length; index+=1){
+for(let index=0; index<numbers.length; index+=1){
       if(numbers[index]>maiorValor){;
       maiorValor=numbers[index];
      }
- }
+}
   console.log('O maior valor é '+ maiorValor);
+
+//Exercício 6- Descubra quantos valores ímpares existem no array e imprima o resultado. 
+//Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado";
+let impares=0
+
+for(let index=0; index<numbers.length; index+=1){
+    if(numbers[index]%2 !==0){
+        impares+=1;
+    }
+}
+    if (impares==0){
+        console.log('Nehum valor ímpare encontrado')
+    }
+    else{
+        console.log(impares+' valores ímpares');
+    }
+
     
