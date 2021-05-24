@@ -11,7 +11,7 @@ for(let index=0; index<n; index+=1){
         console.log(square);
     } 
     
-//Ex 2 
+//Ex 2 -Para o segundo exercício, faça o mesmo que antes, mas que imprima um triângulo retângulo com 5 asteriscos de base. Por exemplo:
 let number=5
 let symbol='*';
 let triangle=' ';
@@ -21,14 +21,5 @@ for (let index=0; index<=number; index+=1){
     console.log(triangle);
     triangle=triangle+symbol;}
 
-//Ex 3
-let number=5
-let symbol='*';
-let triangle=' ';
-
-for (let index=0; index<=number; index+=1){
-    console.log(''+triangle);
-    triangle=triangle+symbol;
-}
 
     
