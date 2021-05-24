@@ -9,6 +9,26 @@ for(let index=0; index<n; index+=1){
     square=square+asterisk;}
     for(let index=0; index<n; index+=1){
         console.log(square);
-    }
+    } 
+    
+//Ex 2 
+let number=5
+let symbol='*';
+let triangle=' ';
 
+for (let index=0; index<=number; index+=1){
+    
+    console.log(triangle);
+    triangle=triangle+symbol;}
 
+//Ex 3
+let number=5
+let symbol='*';
+let triangle=' ';
+
+for (let index=0; index<=number; index+=1){
+    console.log(''+triangle);
+    triangle=triangle+symbol;
+}
+
+    
