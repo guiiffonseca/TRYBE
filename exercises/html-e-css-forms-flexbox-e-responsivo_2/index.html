@@ -10,43 +10,43 @@
 <body>
 	<!--Criar um formulário de castro de currículo-->
   <header class="container text-center" >
-    <h1 >Formulário Cadastro Currículo</h1>
+     <h1 >Formulário Cadastro Currículo</h1>
   </header>
 
   <form action="" method="GET">
     <div class="mb-3 text-center">
-	   <label for="input-name" class="form-label">Nome Completo
-	   <input type="text" id='input-name' class="form-control" maxlength="40" required>
-	   </label>
-	   </div>
+	<label for="input-name" class="form-label">Nome Completo
+	<input type="text" id='input-name' class="form-control" maxlength="40" required>
+	</label>
+    </div>
 
-	<div>
-	  <label for="input-email">E-mail
-	  <input type="email" id='input-email' maxlength="50" required>
+    <div class="mb-3 text-center">
+	<label for="input-email" class="form-label">E-mail
+	<input type="email" id='input-email' class="form-control" maxlength="50" required>
+	</label>
+     </div>
+
+	<div class="mb-3 text-center">
+	  <label for="input-cpf" class="form-label">CPF
+	  <input type="numer" id='input-cpf' class="form-control" maxlength="11" required>
 	  </label>
 	</div>
 
-	<div>
-	  <label for="input-cpf">CPF
-	  <input type="numer" id='input-cpf' maxlength="11" required>
+	<div class="mb-3 text-center">
+	  <label for="input-endereco" class="for-label">Endereço
+	  <input type="text" id='input-endereco' class="form-control" maxlength="200" required>
 	  </label>
 	</div>
 
-	<div>
-	  <label for="input-endereco">Endereço
-	  <input type="text" id='input-endereco' maxlength="200" required>
+	<div class="mb-3 text-center">
+	  <label for="input-cidade" class="form-label">Cidade
+	  <input type="text" id='input-cidade' class="form-control" maxlength="28" required>
 	  </label>
 	</div>
 
-	<div>
-	  <label for="input-cidade">Cidade
-	  <input type="text" id='input-cidade' maxlength="28" required>
-	  </label>
-	</div>
-
-	<div>
+	<div class="mb-3 text-center">
 		<label for="estado">Estados
-		<select required>
+		<select class="form-select" required>
 			<option  value="ac">Acre</option>
 			<option  value="al">Alagoas</option>
 			<option  value="ap">Amapá</option>
@@ -76,46 +76,48 @@
 			<option  value="to">Tocantins</option>
 		</label>x
 	</div>
-	<div>
-		<input type="radio" id='input-casa' name="moradia"  value="casa"  required>
-		<label for="input-casa">Casa
-		<input type="radio" id='input-ap' name="moradia" value="ap"  required>
-		<label for="input-ap">Apartamento
+	<div class="form-check">
+		<input type="radio" id='input-casa'class="form-check-input" name="moradia"  value="casa"  required>
+		<label for="input-casa" class="form-check-label" >Casa
 		</label>
-	
+	<div class="form-chek">		
+		<input type="radio" id='input-ap' name="moradia" class="form-check-input" value="ap"  required>
+		<label for="input-ap" class="form-check-label" >Apartamento
+		</label>
+	</div>
    </fieldset>
 
    <fieldset>
 	<div>
-		<p>Resumo Currículo</p>
-		<textarea maxlength="1000" id="resumo" required rows="30">
-		</textarea>
+	  <p class="lead">Resumo Currículo</p>
+	    <textarea class="form-control" maxlength="1000" id="resumo" required rows="10">
+	    </textarea>
+	    </label>
+	</div>
+
+	<div>
+		<label for="input-cargo" class="form-label">Cargo
+		<input type="text" id='input-cargo'class="form-control" maxlength="40" required>
 		</label>
 	</div>
 
 	<div>
-		<label for="input-cargo">Cargo
-		<input type="text" id='input-cargo' maxlength="40" required>
+		<label for="input-descricao" class="form-label">Descrição Cargo
+		<input type="text" id='input-descricao' class="form-control" maxlength="400" required>
 		</label>
 	</div>
 
 	<div>
-		<label for="input-descricao">Descrição Cargo
-		<input type="text" id='input-descricao' maxlength="400" required>
-		</label>
-	</div>
-
-	<div>
-		<label for="input-cidade">Data de Início
-		<input type="date" id='input-cidade' maxlength="28" required>
+		<label for="input-data" class="form-label">Data de Início
+		<input type="date" id='input-data' class="form-control" maxlength="28" required>
 		</label>
 	</div>
 
    </fieldset>
    
-   <button type="button">Interromper</button>
-   <button type="reset">Limpar</button>
-   <button type="submit">Enviar</button>
+   <button type="button" class="btn btn-success">Interromper</button>
+   <button type="reset" class="btn btn-success">Limpar</button>
+   <button type="submit" class="btn btn-success">Enviar</button>
 </form>
    
 </body>
