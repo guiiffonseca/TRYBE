@@ -30,3 +30,7 @@ width: 50%;
 .estados {
 	font-size: 15px;
 }
+
+.moradia {
+	display: inline;
+}
