@@ -41,3 +41,9 @@ p {
 	margin: 20px auto;
 	height: 80px;
 }
+
+.interrupt {
+	height: 40px;
+	width: 100px;
+	margin: 40 auto;
+}
