@@ -1,5 +1,12 @@
 /*Adicione uma propriedade que defina o tamanho Flexbox base para o container da imagem 268px e para o container 
-do menu 500px . Após aplicar as propriedades o header deverá estar similar a imagem abaixo:*/
+do menu 500px . Após aplicar as propriedades o header deverá estar similar a imagem abaixo:
+
+Adicione uma propriedade Flexbox que modifique a ordem em que a logomarca e os itens do menu aparecem na tela.
+Após aplicar a propriedade o header deverá estar similar a imagem abaixo:
+
+Adicione uma propriedade Flexbox que modifique o tamanho padrão do container do menu quando a largura da página 
+for maior que 768px . Após aplicar a propriedade o header deverá estar similar a imagem abaixo:
+*/
 
 
 * {
@@ -27,6 +34,7 @@ do menu 500px . Após aplicar as propriedades o header deverá estar similar a i
       .menu-container {
 	display: flex;
 	flex-basis: 500px;
+	flex-grow: 1;
 	order: 1;
       }
       
