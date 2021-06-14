@@ -11,6 +11,9 @@ Utilize a propriedade align-self no elemento correto para que o header da págin
 
 Aplique uma base de 350px para seu container aside . Deverá ficar similar a imagem abaixo:
 
+Aplique um alinhamento para centralizar e outro para expandir. Seu aside apresentar o seguinte comportamento:
+
+
 */
 
 
@@ -66,6 +69,7 @@ Aplique uma base de 350px para seu container aside . Deverá ficar similar a ima
       .movie-container {
 	display: flex;
 	flex-direction: column;
+	flex-basis: 700px;
       }
       
       .movie-container h2 {
@@ -87,6 +91,7 @@ Aplique uma base de 350px para seu container aside . Deverá ficar similar a ima
 	height: 150px;
 	justify-content: center;
 	margin: 10px;
+	flex-basis: 16%;
       }
       
       .aside-container {
