@@ -15,6 +15,7 @@ Aplique um alinhamento para centralizar e outro para expandir. Seu aside apresen
 
 Adicione uma propriedade que faça com que seu container de filmes tenha uma base de 700px e outra base de 16% para as div do container de seu card. Deve ficar similar a imagem abaixo:
 
+Aplique uma propriedade com o valor 10 que expanda o container de filmes. Deve ficar similar a imagem abaixo:
 
 */
 
@@ -95,6 +96,7 @@ Adicione uma propriedade que faça com que seu container de filmes tenha uma bas
 	justify-content: center;
 	margin: 10px;
 	flex-basis: 16%;
+	flex-grow: 1;
       }
       
       .aside-container {
