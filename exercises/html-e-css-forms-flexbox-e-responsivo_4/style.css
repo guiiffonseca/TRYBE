@@ -8,6 +8,9 @@ Adicione uma propriedade Flexbox que modifique o tamanho padrão do container do
 for maior que 768px . Após aplicar a propriedade o header deverá estar similar a imagem abaixo:
 
 Utilize a propriedade align-self no elemento correto para que o header da página tenha o seguinte comportamento
+
+Aplique uma base de 350px para seu container aside . Deverá ficar similar a imagem abaixo:
+
 */
 
 
@@ -91,6 +94,8 @@ Utilize a propriedade align-self no elemento correto para que o header da págin
 	flex-direction: column;
 	margin: 20px;
 	flex-basis: 350px;
+	flex-grow: 1;
+	justify-content: center;
       }
       
       .aside-container h3, h4 {
