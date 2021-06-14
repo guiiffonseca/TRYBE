@@ -27,6 +27,7 @@ do menu 500px . Após aplicar as propriedades o header deverá estar similar a i
       .menu-container {
 	display: flex;
 	flex-basis: 500px;
+	order: 1;
       }
       
       .menu-container ul {
@@ -42,3 +43,5 @@ do menu 500px . Após aplicar as propriedades o header deverá estar similar a i
 	list-style: none;
 	margin-right: 10px;
       }
+
+      
