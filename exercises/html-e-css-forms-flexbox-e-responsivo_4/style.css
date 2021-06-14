@@ -13,6 +13,8 @@ Aplique uma base de 350px para seu container aside . Deverá ficar similar a ima
 
 Aplique um alinhamento para centralizar e outro para expandir. Seu aside apresentar o seguinte comportamento:
 
+Adicione uma propriedade que faça com que seu container de filmes tenha uma base de 700px e outra base de 16% para as div do container de seu card. Deve ficar similar a imagem abaixo:
+
 
 */
 
@@ -70,6 +72,7 @@ Aplique um alinhamento para centralizar e outro para expandir. Seu aside apresen
 	display: flex;
 	flex-direction: column;
 	flex-basis: 700px;
+	flex-grow: 10;
       }
       
       .movie-container h2 {
