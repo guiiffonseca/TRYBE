@@ -1,0 +1,70 @@
+/*Utilizando a abordagem mobile first e media queries , crie três versões de layout diferentes para essa página . 
+Cada layout deve corresponder a um tamanho diferente de página (pequeno, médio e grande) .*/
+
+
+html {
+	box-sizing: border-box;
+      }
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+  font-size: 35px;
+  text-align: justify;
+  margin: 10px 2px;
+  padding: 5px;
+}
+
+header p {
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+}
+
+header li {
+	text-align: center;
+	font-size: 30px;
+	list-style: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+aside ul li {
+  list-style: none ;
+}
+
+@media screen and (min-width:650px) {
+  body {
+    background-color: #FFFACD;
+    font-size: 30px;
+    margin: 15px 8px;
+  }
+
+  aside ul li {
+    text-align: center;
+  }
+}
+
+
+@media screen and (min-width: 980px) {
+  body {
+    background-color: #D3D3D3;
+    font-size: 20pxpx;
+    margin: 20px 12px;
+  }
+
+  aside ul li {
+    text-align: center;
+  }
+}
+
+
+
+
