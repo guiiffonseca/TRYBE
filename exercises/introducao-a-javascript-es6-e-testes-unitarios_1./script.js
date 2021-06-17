@@ -39,5 +39,17 @@ const oddsAndEvensSort = (a, b) => {
 const oddsAndEvens = [13, 3, 4, 10, 7, 2];
 const odds = oddsAndEvens.sort(oddsAndEvensSort);
   
-
 console.log(`Os números são: ${odds}`);
+
+/*Crie uma função que receba um número e retorne seu fatorial.
+Na matemática, o fatorial de um número não negativo N , com a notação N! ,
+é o produto de todos os inteiros menores ou iguais a N . Exemplo: 4! = 4 * 3 * 2 * 1 = 24.*/
+
+const factorial = (number) => {
+  let result = 1
+  for (let index = 2; index <= number; index += 1) {
+    result = result * index;
+  }
+  return result;
+}
+  console.log(factorial(5));
