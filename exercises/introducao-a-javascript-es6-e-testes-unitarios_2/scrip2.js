@@ -24,4 +24,11 @@ turno: 'noite',
 const period = (obj,key,value) => {
 	obj[key] = value;
 }
-console.log(period(lesson2,'turno','manhã'));
+period(lesson2,'turno','manhã');
+
+//Crie uma função para listar as keys de um objeto. Essa função deve receber um objeto como parâmetro.
+
+const keysList = (obj) => {
+	Object.keys(obj)
+}
+console.log(keysList(lesson3))
