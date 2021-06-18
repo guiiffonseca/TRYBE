@@ -53,3 +53,4 @@ const factorial = (number) => {
   return result;
 }
   console.log(factorial(5));
+
