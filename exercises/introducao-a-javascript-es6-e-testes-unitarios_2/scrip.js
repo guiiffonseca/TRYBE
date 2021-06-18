@@ -41,14 +41,16 @@ const customerInfo = (order) => {
  
   return `Olá ${order.order.delivery.deliveryPerson}, entrega para ${order.name}, Telefone: ${order.phoneNumber}, R ${order.address.street}, Nº ${order.address.number}, AP ${order.address.apartment}`
 }
-
-
 customerInfo(order);
 console.log(customerInfo(order))
       
-      const orderModifier = (order) => {
-	// Adicione abaixo as informações necessárias.
-      
-      }
-      
-      orderModifier(order);
+const orderModifier = (order) => {
+// Complete a função orderModifier() para que seu retorno seja similar a "Olá Luiz Silva, 
+//o total do seu pedido de muzzarella, calabresa e Coca-Cola Zero é R$ 50,00."
+  const nameChanged = order.name ='Luiz Silva';
+  const priceChanged = order.payment.total = '50';
+  const pizzas = Object.keys(order.order.pizza);
+  return (`Olá ${nameChanged}, o total do seu pedido de ${pizzas} , ${order.order.drinks.coke.type} é ${priceChanged}`)   
+}
+console.log(orderModifier(order))
+orderModifier(order);
