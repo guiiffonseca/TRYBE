@@ -29,6 +29,12 @@ period(lesson2,'turno','manhã');
 //Crie uma função para listar as keys de um objeto. Essa função deve receber um objeto como parâmetro.
 
 const keysList = (obj) => {
-	Object.keys(obj)
+	Object.keys(obj);
 }
-console.log(keysList(lesson3))
+console.log(keysList(lesson3));
+
+//Crie uma função para mostrar o tamanho de um objeto.
+
+const size = (obj) => {
+	Object.keys(obj).length;
+}
