@@ -1,4 +1,4 @@
-/*const assert = require('assert');
+const assert = require('assert');
 
 function sum(a, b) {
   if (typeof a !== 'number' || typeof b !== 'number') {
@@ -19,7 +19,7 @@ assert.strictEqual(sum(4,'5'),9);
 //Teste se a mensagem de erro é "parameters must be numbers" quando realizar a chamada sum(4, "5")
 assert.throws(() => {
   sum(4, '5');
-}, /^Error: parameters must be numbers$/);*/
+}, /^Error: parameters must be numbers$/);
 
 //A função myRemove(arr, item) recebe um array arr e retorna uma cópia desse array sem o elemento item caso ele exista no array
 const assert = require('assert');
