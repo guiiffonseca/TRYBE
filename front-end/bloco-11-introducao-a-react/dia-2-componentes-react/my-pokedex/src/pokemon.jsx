@@ -19,14 +19,6 @@ class Pokemon extends React.Component {
   }
 }
 
-
-
-
-
-
-
-
-
 Pokemon.propTypes = {
 	pokemon: PropTypes.shape({
 	  name: PropTypes.string,
