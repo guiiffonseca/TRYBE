@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formulário</title>
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+	<!--Criar um formulário de castro de currículo-->
+  <header class="container text-center" >
+     <h1 >Formulário Cadastro Currículo</h1>
+  </header>
+
+  <form action="" method="GET">
+    <div class="mb-3 text-center">
+	<label for="input-name" class="form-label">Nome Completo
+	<input type="text" id='input-name' class="form-control" maxlength="40" required>
+	</label>
+    </div>
+
+    <div class="mb-3 text-center">
+	<label for="input-email" class="form-label">E-mail
+	<input type="email" id='input-email' class="form-control" maxlength="50" required>
+	</label>
+     </div>
+
+	<div class="mb-3 text-center">
+	  <label for="input-cpf" class="form-label">CPF
+	  <input type="numer" id='input-cpf' class="form-control" maxlength="11" required>
+	  </label>
+	</div>
+
+	<div class="mb-3 text-center">
+	  <label for="input-endereco" class="for-label">Endereço
+	  <input type="text" id='input-endereco' class="form-control" maxlength="200" required>
+	  </label>
+	</div>
+
+	<div class="mb-3 text-center">
+	  <label for="input-cidade" class="form-label">Cidade
+	  <input type="text" id='input-cidade' class="form-control" maxlength="28" required>
+	  </label>
+	</div>
+
+	<div class="mb-3 text-center">
+		<label for="estado">Estados
+		<select class="form-select" required>
+			<option  value="ac">Acre</option>
+			<option  value="al">Alagoas</option>
+			<option  value="ap">Amapá</option>
+			<option value="am">Amazonas</option>
+			<option  value="ba">Bahia</option>
+			<option value="ce">Ceará</option>
+			<option  value="df">Distrito Federal</option>
+			<option  value="es">Espírito Santo</option>
+			<option value="go">Goiás</option>
+			<option  value="ma">Maranhão</option>
+			<option  value="mt">Mato Grosso</option>
+			<option  value="ms">Mato Grosso do Sul</option>
+			<option  value="mg">Minas Gerais</option>
+			<option  value="pa">Pará</option>
+			<option  value="pb">Paraíba</option>
+			<option  value="pn">Paraná</option>
+			<option  value="pe">Pernambuco</option>
+			<option  value="pi">Piauí</option>
+			<option value="rj">Rio de Janeiro</option>
+			<option value="rn">Rio grande do Norte</option>
+			<option value="rs">Rio Grande do Sul</option>
+			<option  value="ro">Rondônia</option>
+			<option  value="rr">Roraima</option>
+			<option  value="sc">Santa Catarina</option>
+			<option  value="sp">São Paulo</option>
+			<option  value="sp">Sergipe</option>
+			<option  value="to">Tocantins</option>
+		</label>x
+	</div>
+	<div class="form-check">
+		<input type="radio" id='input-casa'class="form-check-input" name="moradia"  value="casa"  required>
+		<label for="input-casa" class="form-check-label" >Casa
+		</label>
+	<div class="form-chek">		
+		<input type="radio" id='input-ap' name="moradia" class="form-check-input" value="ap"  required>
+		<label for="input-ap" class="form-check-label" >Apartamento
+		</label>
+	</div>
+   </fieldset>
+
+   <fieldset>
+	<div>
+	  <p class="lead">Resumo Currículo</p>
+	    <textarea class="form-control" maxlength="1000" id="resumo" required rows="10">
+	    </textarea>
+	    </label>
+	</div>
+
+	<div>
+		<label for="input-cargo" class="form-label">Cargo
+		<input type="text" id='input-cargo'class="form-control" maxlength="40" required>
+		</label>
+	</div>
+
+	<div>
+		<label for="input-descricao" class="form-label">Descrição Cargo
+		<input type="text" id='input-descricao' class="form-control" maxlength="400" required>
+		</label>
+	</div>
+
+	<div>
+		<label for="input-data" class="form-label">Data de Início
+		<input type="date" id='input-data' class="form-control" maxlength="28" required>
+		</label>
+	</div>
+
+   </fieldset>
+   
+   <button type="button" class="btn btn-success">Interromper</button>
+   <button type="reset" class="btn btn-success">Limpar</button>
+   <button type="submit" class="btn btn-success">Enviar</button>
+</form>
+   
+</body>
+</html>
