@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #696969;
+}
+
+.poke{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 30px;
+}
+
+
+h1{
+  text-align: center;
+  padding: 40px 0px;
+}
+
+.pokecard {
+  border-style: outset;
+  border-width: 20px;
+  width: 200px;
+  margin: 15px 15px;
+}
+
+.data {
+  text-align: center;
+  padding-top: 20px;
+}
+
+img {
+  padding-left: 50px;
+}
